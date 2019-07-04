@@ -1394,7 +1394,7 @@
 	      this.easyrtc.enableAudio(options.audio);
 
 	      this.easyrtc.enableVideoReceive(false);
-	      this.easyrtc.enableAudioReceive(options.audio);
+	      this.easyrtc.enableAudioReceive(true);
 	    }
 	  }, {
 	    key: "setServerConnectListeners",
